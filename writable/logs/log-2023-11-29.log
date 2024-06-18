@@ -1,0 +1,647 @@
+INFO - 2023-11-29 01:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 01:46:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ProgramacionController::$session is deprecated in APPPATH\Controllers\Docente\ProgramacionController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 01:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 02:31:26 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Docente\ProgramacionController.php on line 102.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\en desarrollo\\upn212horariosv2\\app\\Controllers\\Docente\\ProgramacionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Docente\\ProgramacionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Docente\\ProgramacionController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Docente\\ProgramacionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 02:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:13:51 --> Undefined array key "thead"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16654.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16654): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'E:\\en desarrollo\\upn212horariosv2\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16654)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17366): TCPDF->getHtmlDomArray('<table border="1" width="100%"><tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;"><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM<marker style="font-size:0"/></th></tr><tr><td>Dato 2<marker style="font-size:0"/></td><td>ESTADÍSTICA 1<marker style="font-size:0"/></td><td>10:00</table>')
+ 3 APPPATH\Controllers\Docente\ProgramacionController.php(102): TCPDF->writeHTML('<table border="1" width="100%">
+                    <tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;">
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA</th>
+                        <th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM</th>
+                    </tr><tr>
+                    <td>Dato 2</td>
+                    <td>ESTADÍSTICA 1</td>
+                    
+                    <td>10:00</table>')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->generarConstancia('260')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 03:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:21:27 --> Undefined array key "startcolumn"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19676.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19676): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'E:\\en desarrollo\\upn212horariosv2\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19676)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18451): TCPDF->closeHTMLTagHandler([...], 5, true, 139.56249822222225)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5934): TCPDF->writeHTML('<cssarray>[]</cssarray><tr>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00</tr><marker style="font-size:0"/>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18378): TCPDF->MultiCell(42.5000361111111, 0, '<cssarray>[]</cssarray><tr>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00</tr><marker style="font-size:0"/>', false, '', false, 2, 122.00008666666665, 132.50694244444446, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Docente\ProgramacionController.php(109): TCPDF->writeHTML('<table border="1" width="100%">
+                    <tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;">
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA</th>
+                        <th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM</th>
+                    </tr><tr>
+                    <td>Dato 2</td>
+                    <td>ESTADÍSTICA 1</td>
+                    
+                    <td><tr>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00</tr></td>
+                </tr></table>')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->generarConstancia('260')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 03:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:22:48 --> Undefined variable $cellspacingx
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18282.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'E:\\en desarrollo\\upn212horariosv2\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 18282)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5934): TCPDF->writeHTML('<cssarray>[]</cssarray><tr><td>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00<marker style="font-size:0"/></td></tr><marker style="font-size:0"/>', true, false, true, true, '')
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18378): TCPDF->MultiCell(42.5000361111111, 0, '<cssarray>[]</cssarray><tr><td>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00<marker style="font-size:0"/></td></tr><marker style="font-size:0"/>', false, '', false, 2, 122.00008666666665, 132.50694244444446, true, 0, true, true, 0, 'T', false)
+ 4 APPPATH\Controllers\Docente\ProgramacionController.php(109): TCPDF->writeHTML('<table border="1" width="100%">
+                    <tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;">
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA</th>
+                        <th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM</th>
+                    </tr><tr>
+                    <td>Dato 2</td>
+                    <td>ESTADÍSTICA 1</td>
+                    
+                    <td><tr><td>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00</td></tr></td>
+                </tr></table>')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->generarConstancia('260')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 03:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:29:53 --> Undefined array key "cols"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17094.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17094): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'E:\\en desarrollo\\upn212horariosv2\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 17094)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17366): TCPDF->getHtmlDomArray('<table border="1" width="100%"><tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;"><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA<marker style="font-size:0"/></th><th colspan="2" style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM<marker style="font-size:0"/></th></tr><tr><td>Dato 2<marker style="font-size:0"/></td><td>ESTADÍSTICA 1<marker style="font-size:0"/></td><td>Lunes<br>Miércoles<td>08:00 a 10:00<br>10:00 a 12:00<marker style="font-size:0"/></td></tr><tr><td><marker style="font-size:0"/></td></tr></tr></table>')
+ 3 APPPATH\Controllers\Docente\ProgramacionController.php(109): TCPDF->writeHTML('<table border="1" width="100%">
+                    <tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;">
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA</th>
+                        <th colspan="2" style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA</th>
+                        <th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM</th>
+                    </tr><tr>
+                    <td>Dato 2</td>
+                    <td>ESTADÍSTICA 1</td>
+                    <td>Lunes<br>Miércoles<td>08:00 a 10:00<br>10:00 a 12:00</td></tr><tr><td></td></tr>
+                </tr></table>')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->generarConstancia('260')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:30:45 --> Undefined array key "thead"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16654.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16654): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'E:\\en desarrollo\\upn212horariosv2\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16654)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17366): TCPDF->getHtmlDomArray('<table border="1" width="100%"><tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;"><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA<marker style="font-size:0"/></th><th colspan="2" style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM<marker style="font-size:0"/></th></tr><tr><td>Dato 2<marker style="font-size:0"/></td><td>ESTADÍSTICA 1<marker style="font-size:0"/></td><td>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00<marker style="font-size:0"/></td></tr></tr></table>')
+ 3 APPPATH\Controllers\Docente\ProgramacionController.php(108): TCPDF->writeHTML('<table border="1" width="100%">
+                    <tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;">
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA</th>
+                        <th colspan="2" style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA</th>
+                        <th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM</th>
+                    </tr><tr>
+                    <td>Dato 2</td>
+                    <td>ESTADÍSTICA 1</td>
+                    <td>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00</td></tr>
+                </tr></table>')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->generarConstancia('260')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 03:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:31:06 --> Undefined array key "thead"
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16654.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16654): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'E:\\en desarrollo\\upn212horariosv2\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16654)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17366): TCPDF->getHtmlDomArray('<table border="1" width="100%"><tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;"><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM<marker style="font-size:0"/></th></tr><tr><td>Dato 2<marker style="font-size:0"/></td><td>ESTADÍSTICA 1<marker style="font-size:0"/></td><td>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00<marker style="font-size:0"/></td></tr></tr></table>')
+ 3 APPPATH\Controllers\Docente\ProgramacionController.php(108): TCPDF->writeHTML('<table border="1" width="100%">
+                    <tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;">
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">CM</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="50%">ASIGNATURA</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="25%">HORARIO Y DÍA</th>
+                        <th style="vertical-align: middle; text-align: center; font-weight: bold" height="25" width="*">SEM</th>
+                    </tr><tr>
+                    <td>Dato 2</td>
+                    <td>ESTADÍSTICA 1</td>
+                    <td>Lunes08:00 a 10:00<br>Miércoles10:00 a 12:00</td></tr>
+                </tr></table>')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->generarConstancia('260')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 03:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:46:23 --> Array to string conversion
+in APPPATH\Controllers\Docente\ProgramacionController.php on line 73.
+ 1 APPPATH\Controllers\Docente\ProgramacionController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\en desarrollo\\upn212horariosv2\\app\\Controllers\\Docente\\ProgramacionController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->generarConstancia('260')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 03:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:57:58 --> Undefined array key "nombre_asignatura"
+in APPPATH\Controllers\Docente\ProgramacionController.php on line 89.
+ 1 APPPATH\Controllers\Docente\ProgramacionController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_asignatura"', 'E:\\en desarrollo\\upn212horariosv2\\app\\Controllers\\Docente\\ProgramacionController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->generarConstancia('260')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 03:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 04:22:50 --> Undefined array key "asignatura_id"
+in APPPATH\Controllers\Docente\ProgramacionController.php on line 96.
+ 1 APPPATH\Controllers\Docente\ProgramacionController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "asignatura_id"', 'E:\\en desarrollo\\upn212horariosv2\\app\\Controllers\\Docente\\ProgramacionController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->generarConstancia('260')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 04:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 04:41:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+WARNING - 2023-11-29 04:41:48 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+WARNING - 2023-11-29 04:41:48 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 04:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 04:41:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 04:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 04:42:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 04:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 04:42:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+WARNING - 2023-11-29 04:42:28 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+WARNING - 2023-11-29 04:42:28 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 04:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 04:42:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 04:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 04:43:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 04:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 04:43:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+WARNING - 2023-11-29 04:43:25 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+WARNING - 2023-11-29 04:43:25 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 04:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 04:44:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ProgramacionController::$session is deprecated in APPPATH\Controllers\Docente\ProgramacionController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 04:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 15:59:39 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-29 15:59:39 --> Uncaught Error: Class "Locale" not found in E:\en desarrollo\upn212horariosv2\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 E:\en desarrollo\upn212horariosv2\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 E:\en desarrollo\upn212horariosv2\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 E:\en desarrollo\upn212horariosv2\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 E:\en desarrollo\upn212horariosv2\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 E:\en desarrollo\upn212horariosv2\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 E:\en desarrollo\upn212horariosv2\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-29 15:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-29 15:05:41 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'horarios' in E:\en desarrollo\upn212horariosv2\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 E:\en desarrollo\upn212horariosv2\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'horarios', 3306, '', 0)
+#1 E:\en desarrollo\upn212horariosv2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\en desarrollo\upn212horariosv2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\en desarrollo\upn212horariosv2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\en desarrollo\upn212horariosv2\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\en desarrollo\upn212horariosv2\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 E:\en desarrollo\upn212horariosv2\app\Validation\Userrules.php(11): CodeIgniter\BaseModel->first()
+#7 E:\en desarrollo\upn212horariosv2\system\Validation\Validation.php(309): App\Validation\Userrules->validateUser('12345678', 'username,passwo...', Array, NULL, 'password')
+#8 E:\en desarrollo\upn212horariosv2\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'password', '12345678', Array, Array)
+#9 E:\en desarrollo\upn212horariosv2\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#10 E:\en desarrollo\upn212horariosv2\app\Controllers\UserController.php(28): CodeIgniter\Controller->validate(Array, Array)
+#11 E:\en desarrollo\upn212horariosv2\system\CodeIgniter.php(919): App\Controllers\UserController->login()
+#12 E:\en desarrollo\upn212horariosv2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#13 E:\en desarrollo\upn212horariosv2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 E:\en desarrollo\upn212horariosv2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 E:\en desarrollo\upn212horariosv2\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'horarios' in E:\en desarrollo\upn212horariosv2\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\en desarrollo\upn212horariosv2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\en desarrollo\upn212horariosv2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\en desarrollo\upn212horariosv2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\en desarrollo\upn212horariosv2\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\en desarrollo\upn212horariosv2\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 E:\en desarrollo\upn212horariosv2\app\Validation\Userrules.php(11): CodeIgniter\BaseModel->first()
+#6 E:\en desarrollo\upn212horariosv2\system\Validation\Validation.php(309): App\Validation\Userrules->validateUser('12345678', 'username,passwo...', Array, NULL, 'password')
+#7 E:\en desarrollo\upn212horariosv2\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'password', '12345678', Array, Array)
+#8 E:\en desarrollo\upn212horariosv2\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#9 E:\en desarrollo\upn212horariosv2\app\Controllers\UserController.php(28): CodeIgniter\Controller->validate(Array, Array)
+#10 E:\en desarrollo\upn212horariosv2\system\CodeIgniter.php(919): App\Controllers\UserController->login()
+#11 E:\en desarrollo\upn212horariosv2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 E:\en desarrollo\upn212horariosv2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\en desarrollo\upn212horariosv2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 E:\en desarrollo\upn212horariosv2\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#15 {main}
+CRITICAL - 2023-11-29 15:05:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'horarios'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Validation\Userrules.php(11): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\Validation\Validation.php(309): App\Validation\Userrules->validateUser('12345678', 'username,password', [...], null, 'password')
+ 7 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'password', '12345678', [...], [...])
+ 8 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\UserController.php(28): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->login()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:07:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:08:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+CRITICAL - 2023-11-29 15:08:14 --> Undefined array key "docente"
+in APPPATH\Views\coordinador\programacion\index.php on line 24.
+ 1 APPPATH\Views\coordinador\programacion\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "docente"', 'E:\\en desarrollo\\upn212horariosv2\\app\\Views\\coordinador\\programacion\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\coordinador\\programacion\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('coordinador/programacion/index', [], true)
+ 5 APPPATH\Controllers\Coordinador\ProgramacionController.php(58): view('coordinador/programacion/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 15:19:13 --> Undefined variable $carrera_id
+in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 60.
+ 1 APPPATH\Controllers\Coordinador\ProgramacionController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrera_id', 'E:\\en desarrollo\\upn212horariosv2\\app\\Controllers\\Coordinador\\ProgramacionController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 15:20:51 --> Undefined variable $carrera
+in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 60.
+ 1 APPPATH\Controllers\Coordinador\ProgramacionController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrera', 'E:\\en desarrollo\\upn212horariosv2\\app\\Controllers\\Coordinador\\ProgramacionController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:22:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:28:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:31:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:32:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:34:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+WARNING - 2023-11-29 15:34:21 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+WARNING - 2023-11-29 15:34:21 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:34:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:34:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:35:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:35:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:35:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-29 15:38:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-29 15:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

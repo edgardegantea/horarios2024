@@ -1,0 +1,164 @@
+INFO - 2023-11-16 22:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-16 22:00:12 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'horarios' in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/app/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(309): App\Validation\Userrules->validateUser()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(195): CodeIgniter\Validation\Validation->processRules()
+#9 /run/media/degante/DEVELOPMENT/dev/horarios/system/Controller.php(150): CodeIgniter\Validation\Validation->run()
+#10 /run/media/degante/DEVELOPMENT/dev/horarios/app/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+#11 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(919): App\Controllers\UserController->login()
+#12 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#13 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#14 /run/media/degante/DEVELOPMENT/dev/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#15 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Server/rewrite.php(47): require_once('...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'horarios' in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/app/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(309): App\Validation\Userrules->validateUser()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(195): CodeIgniter\Validation\Validation->processRules()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/Controller.php(150): CodeIgniter\Validation\Validation->run()
+#9 /run/media/degante/DEVELOPMENT/dev/horarios/app/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+#10 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(919): App\Controllers\UserController->login()
+#11 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#12 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#13 /run/media/degante/DEVELOPMENT/dev/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#14 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Server/rewrite.php(47): require_once('...')
+#15 {main}
+CRITICAL - 2023-11-16 22:00:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'horarios'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/Validation/Validation.php(309): App\Validation\Userrules->validateUser()
+ 7 SYSTEMPATH/Validation/Validation.php(195): CodeIgniter\Validation\Validation->processRules()
+ 8 SYSTEMPATH/Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->login()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')
+INFO - 2023-11-16 22:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-16 22:01:15 --> mysqli_sql_exception: Table 'horarios.usuarios' doesn't exist in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/app/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(309): App\Validation\Userrules->validateUser()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(195): CodeIgniter\Validation\Validation->processRules()
+#9 /run/media/degante/DEVELOPMENT/dev/horarios/system/Controller.php(150): CodeIgniter\Validation\Validation->run()
+#10 /run/media/degante/DEVELOPMENT/dev/horarios/app/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+#11 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(919): App\Controllers\UserController->login()
+#12 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#13 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#14 /run/media/degante/DEVELOPMENT/dev/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#15 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Server/rewrite.php(47): require_once('...')
+#16 {main}
+CRITICAL - 2023-11-16 22:01:15 --> Table 'horarios.usuarios' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/Validation/Validation.php(309): App\Validation\Userrules->validateUser()
+ 6 SYSTEMPATH/Validation/Validation.php(195): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->login()
+10 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')
+ERROR - 2023-11-16 22:01:35 --> mysqli_sql_exception: Table 'horarios.usuarios' doesn't exist in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/system/Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/system/BaseModel.php(880): CodeIgniter\Model->doInsertBatch()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/app/Database/Seeds/UsuarioSeeder.php(14): CodeIgniter\BaseModel->insertBatch()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/Seeder.php(146): App\Database\Seeds\UsuarioSeeder->run()
+#9 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#10 /run/media/degante/DEVELOPMENT/dev/horarios/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#11 /run/media/degante/DEVELOPMENT/dev/horarios/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#12 /run/media/degante/DEVELOPMENT/dev/horarios/spark(102): CodeIgniter\CLI\Console->run()
+#13 {main}
+INFO - 2023-11-16 22:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:10:31 --> Undefined property: App\Controllers\ProgramacionController::$grupoModel
+in APPPATH/Controllers/ProgramacionController.php on line 224.
+ 1 APPPATH/Controllers/ProgramacionController.php(224): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\ProgramacionController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')
+INFO - 2023-11-16 22:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:11:32 --> syntax error, unexpected token ";"
+in APPPATH/Views/admin/grupos/index.php on line 33.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/GrupoController.php(36): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Admin\GrupoController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')
+INFO - 2023-11-16 22:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:12:37 --> Undefined array key "carrera"
+in APPPATH/Views/admin/grupos/index.php on line 30.
+ 1 APPPATH/Views/admin/grupos/index.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/run/media/degante/DEVELOPMENT/dev/horarios/app/Views/admin/grupos/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/GrupoController.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Admin\GrupoController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')
+INFO - 2023-11-16 22:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:16:44 --> Undefined array key "carrera"
+in APPPATH/Views/admin/grupos/index.php on line 30.
+ 1 APPPATH/Views/admin/grupos/index.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/run/media/degante/DEVELOPMENT/dev/horarios/app/Views/admin/grupos/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/GrupoController.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Admin\GrupoController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')

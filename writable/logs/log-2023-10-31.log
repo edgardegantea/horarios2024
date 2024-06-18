@@ -1,0 +1,1150 @@
+INFO - 2023-10-31 01:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-31 01:18:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\dev\horarios\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 E:\dev\horarios\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'useradmin', Object(SensitiveParameterValue), 'horarios', 3306, '', 0)
+#1 E:\dev\horarios\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\dev\horarios\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\dev\horarios\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\dev\horarios\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\dev\horarios\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\dev\horarios\app\Controllers\Admin\AdminController.php(21): CodeIgniter\BaseModel->findAll()
+#7 E:\dev\horarios\system\CodeIgniter.php(919): App\Controllers\Admin\AdminController->index()
+#8 E:\dev\horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+#9 E:\dev\horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\dev\horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 E:\dev\horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\dev\horarios\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\dev\horarios\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\dev\horarios\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\dev\horarios\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\dev\horarios\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\dev\horarios\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\dev\horarios\app\Controllers\Admin\AdminController.php(21): CodeIgniter\BaseModel->findAll()
+#6 E:\dev\horarios\system\CodeIgniter.php(919): App\Controllers\Admin\AdminController->index()
+#7 E:\dev\horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+#8 E:\dev\horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\dev\horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\dev\horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios...')
+#11 {main}
+CRITICAL - 2023-10-31 01:18:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Admin\AdminController.php(21): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 01:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 01:19:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 01:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 01:19:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 01:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 01:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:00:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:04:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+CRITICAL - 2023-10-31 05:04:55 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 APPPATH\Views\docente\expedientes\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 5 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:06:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:06:42 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:06:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:06:47 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:07:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:07:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:07:13 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:07:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:07:26 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:12:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+CRITICAL - 2023-10-31 05:12:33 --> Undefined variable $id
+in APPPATH\Controllers\Docente\ExpedienteController.php on line 375.
+ 1 APPPATH\Controllers\Docente\ExpedienteController.php(375): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'E:\\dev\\horarios\\app\\Controllers\\Docente\\ExpedienteController.php', 375)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:15:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+CRITICAL - 2023-10-31 05:15:47 --> Undefined variable $id
+in APPPATH\Controllers\Docente\ExpedienteController.php on line 375.
+ 1 APPPATH\Controllers\Docente\ExpedienteController.php(375): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'E:\\dev\\horarios\\app\\Controllers\\Docente\\ExpedienteController.php', 375)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:15:51 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\edit.php on line 27.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\edit.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/edit', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(361): view('docente/expedientes/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:15:53 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\edit.php on line 27.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\edit.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/edit', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(361): view('docente/expedientes/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:16:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+CRITICAL - 2023-10-31 05:16:06 --> Undefined variable $id
+in APPPATH\Controllers\Docente\ExpedienteController.php on line 375.
+ 1 APPPATH\Controllers\Docente\ExpedienteController.php(375): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'E:\\dev\\horarios\\app\\Controllers\\Docente\\ExpedienteController.php', 375)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:16:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+CRITICAL - 2023-10-31 05:16:42 --> Undefined variable $docente
+in APPPATH\Controllers\Docente\ExpedienteController.php on line 444.
+ 1 APPPATH\Controllers\Docente\ExpedienteController.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $docente', 'E:\\dev\\horarios\\app\\Controllers\\Docente\\ExpedienteController.php', 444)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+ERROR - 2023-10-31 05:16:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`horarios`.`expedientes`, CONSTRAINT `expedientes_docente_foreign` FOREIGN KEY (`docente`) REFERENCES `usuarios` (`id`)) in E:\dev\horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\dev\horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `expedie...', 0)
+#1 E:\dev\horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `expedie...')
+#2 E:\dev\horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `expedie...')
+#3 E:\dev\horarios\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `expedie...', Array, false)
+#4 E:\dev\horarios\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\dev\horarios\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\dev\horarios\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\dev\horarios\app\Controllers\Docente\ExpedienteController.php(444): CodeIgniter\Model->update('2', Array)
+#8 E:\dev\horarios\system\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+#9 E:\dev\horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+#10 E:\dev\horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\dev\horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\dev\horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios...')
+#13 {main}
+CRITICAL - 2023-10-31 05:16:58 --> Cannot add or update a child row: a foreign key constraint fails (`horarios`.`expedientes`, CONSTRAINT `expedientes_docente_foreign` FOREIGN KEY (`docente`) REFERENCES `usuarios` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `expedientes` SET `docente` = :docente:, `bio` = :bio:, `licenciatura` = :licenciatura:, `lic_num_cedula` = :lic_num_cedula:, `fecha_titulacion_lic` = :fecha_titulacion_lic:, `maestria` = :maestria:, `mae_num_cedula` = :mae_num_cedula:, `fecha_titulacion_mae` = :fecha_titulacion_mae:, `doctorado` = :doctorado:, `doc_num_cedula` = :doc_num_cedula:, `fecha_titulacion_doc` = :fecha_titulacion_doc:, `articulo1` = :articulo1:, `fecha_pub_articulo1` = :fecha_pub_articulo1:, `articulo2` = :articulo2:, `fecha_pub_articulo2` = :fecha_pub_articulo2:, `articulo3` = :articulo3:, `fecha_pub_articulo3` = :fecha_pub_articulo3:, `curso1` = :curso1:, `fecha_curso1` = :fecha_curso1:, `curso2` = :curso2:, `fecha_curso2` = :fecha_curso2:, `curso3` = :curso3:, `fecha_curso3` = :fecha_curso3:, `curso4` = :curso4:, `fecha_curso4` = :fecha_curso4:, `ponencia1` = :ponencia1:, `fecha_ponencia1` = :fecha_ponencia1:, `ponencia2` = :ponencia2:, `fecha_ponencia2` = :fecha_ponencia2:, `ponencia3` = :ponencia3:, `fecha_ponencia3` = :fecha_ponencia3:, `certificacion1` = :certificacion1:, `fecha_certificacion1` = :fecha_certificacion1:, `certificacion2` = :certificacion2:, `fecha_certificacion2` = :fecha_certificacion2:, `certificacion3` = :certificacion3:, `fecha_certificacion3` = :fecha_certificacion3:, `certificacion4` = :certificacion4:, `fecha_certificacion4` = :fecha_certificacion4:, `experiencia_adicional` = :experiencia_adicional:, `updated_at` = :updated_at:
+WHERE `expedientes`.`docente` IN :expedientes.docente:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Docente\ExpedienteController.php(444): CodeIgniter\Model->update('2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:17:33 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:17:39 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\edit.php on line 27.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\edit.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/edit', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(361): view('docente/expedientes/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:18:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:18:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:18:08 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:21:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:21:03 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:21:05 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\edit.php on line 27.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\edit.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/edit', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(361): view('docente/expedientes/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:21:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:21:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:21:30 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:21:34 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\edit.php on line 27.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\edit.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/edit', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(361): view('docente/expedientes/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:21:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:21:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:21:59 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:23:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:23:16 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:23:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:23:48 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:24:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:24:30 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:26:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:26:35 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:27:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:27:37 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:27:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:27:50 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:28:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:28:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:28:13 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\edit.php on line 27.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\edit.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/edit', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(361): view('docente/expedientes/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:28:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:28:15 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:30:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:30:49 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:31:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+CRITICAL - 2023-10-31 05:31:32 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\docente\expedientes\index.php on line 16.
+ 1 APPPATH\Views\docente\expedientes\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 5 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:31:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:32:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:32:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:32:34 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:32:45 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\edit.php on line 27.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\edit.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/edit', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(361): view('docente/expedientes/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:34:42 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\edit.php on line 27.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\edit.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/edit', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(361): view('docente/expedientes/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 372.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH\Controllers\Docente\ExpedienteController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+WARNING - 2023-10-31 05:35:01 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH\Views\docente\expedientes\index.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\docente\\expedientes\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('docente/expedientes/index', [], true)
+ 4 APPPATH\Controllers\Docente\ExpedienteController.php(25): view('docente/expedientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 05:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:40:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 05:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 05:40:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-31 18:24:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\dev\horarios\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 E:\dev\horarios\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'useradmin', Object(SensitiveParameterValue), 'horarios', 3306, '', 0)
+#1 E:\dev\horarios\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\dev\horarios\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\dev\horarios\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\dev\horarios\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\dev\horarios\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 E:\dev\horarios\app\Validation\Userrules.php(11): CodeIgniter\BaseModel->first()
+#7 E:\dev\horarios\system\Validation\Validation.php(309): App\Validation\Userrules->validateUser('12345678', 'username,passwo...', Array, NULL, 'password')
+#8 E:\dev\horarios\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'password', '12345678', Array, Array)
+#9 E:\dev\horarios\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#10 E:\dev\horarios\app\Controllers\UserController.php(28): CodeIgniter\Controller->validate(Array, Array)
+#11 E:\dev\horarios\system\CodeIgniter.php(919): App\Controllers\UserController->login()
+#12 E:\dev\horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#13 E:\dev\horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 E:\dev\horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 E:\dev\horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\dev\horarios\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\dev\horarios\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\dev\horarios\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\dev\horarios\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\dev\horarios\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\dev\horarios\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 E:\dev\horarios\app\Validation\Userrules.php(11): CodeIgniter\BaseModel->first()
+#6 E:\dev\horarios\system\Validation\Validation.php(309): App\Validation\Userrules->validateUser('12345678', 'username,passwo...', Array, NULL, 'password')
+#7 E:\dev\horarios\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'password', '12345678', Array, Array)
+#8 E:\dev\horarios\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#9 E:\dev\horarios\app\Controllers\UserController.php(28): CodeIgniter\Controller->validate(Array, Array)
+#10 E:\dev\horarios\system\CodeIgniter.php(919): App\Controllers\UserController->login()
+#11 E:\dev\horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 E:\dev\horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\dev\horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 E:\dev\horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios...')
+#15 {main}
+CRITICAL - 2023-10-31 18:24:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Validation\Userrules.php(11): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\Validation\Validation.php(309): App\Validation\Userrules->validateUser('12345678', 'username,password', [...], null, 'password')
+ 7 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'password', '12345678', [...], [...])
+ 8 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\UserController.php(28): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->login()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 18:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 18:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:25:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:32:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:33:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:36:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:36:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:37:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:37:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:39:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:39:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:39:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:40:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:40:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:41:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:41:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:41:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:41:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:41:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:41:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:42:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:42:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:42:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:44:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:45:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:45:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:47:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:48:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:48:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 18:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 18:48:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:12:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:12:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:13:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:13:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:13:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:13:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:13:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:13:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:26:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:26:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:35:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:35:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+CRITICAL - 2023-10-31 19:35:23 --> Undefined variable $carrera
+in APPPATH\Views\admin\carreras\edit.php on line 9.
+ 1 APPPATH\Views\admin\carreras\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrera', 'E:\\dev\\horarios\\app\\Views\\admin\\carreras\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\dev\\horarios\\app\\Views\\admin\\carreras\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/edit', [], true)
+ 5 APPPATH\Controllers\Admin\CarreraController.php(84): view('admin/carreras/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:35:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:38:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:38:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:39:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:39:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:39:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:42:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')
+INFO - 2023-10-31 19:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-31 19:42:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\dev\\horarios\\public\\index.php')

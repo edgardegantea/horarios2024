@@ -1,0 +1,84 @@
+INFO - 2024-06-01 15:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 21:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 21:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 21:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 21:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 21:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-01 21:33:14 --> mysqli_sql_exception: Duplicate entry ' charitoleo_29@' for key 'username' in /homepages/34/d971490128/htdocs/apps/horarios/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/horarios/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /homepages/34/d971490128/htdocs/apps/horarios/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /homepages/34/d971490128/htdocs/apps/horarios/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /homepages/34/d971490128/htdocs/apps/horarios/app/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+#8 /homepages/34/d971490128/htdocs/apps/horarios/system/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+#9 /homepages/34/d971490128/htdocs/apps/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-01 21:33:14 --> Duplicate entry ' charitoleo_29@' for key 'username'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 21:33:51 --> mysqli_sql_exception: Duplicate entry ' charitoleo_29@' for key 'username' in /homepages/34/d971490128/htdocs/apps/horarios/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/horarios/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /homepages/34/d971490128/htdocs/apps/horarios/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /homepages/34/d971490128/htdocs/apps/horarios/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /homepages/34/d971490128/htdocs/apps/horarios/app/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+#8 /homepages/34/d971490128/htdocs/apps/horarios/system/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+#9 /homepages/34/d971490128/htdocs/apps/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-01 21:33:51 --> Duplicate entry ' charitoleo_29@' for key 'username'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 21:34:46 --> mysqli_sql_exception: Duplicate entry ' charitoleo_29@' for key 'username' in /homepages/34/d971490128/htdocs/apps/horarios/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/horarios/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/horarios/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /homepages/34/d971490128/htdocs/apps/horarios/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /homepages/34/d971490128/htdocs/apps/horarios/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /homepages/34/d971490128/htdocs/apps/horarios/app/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+#8 /homepages/34/d971490128/htdocs/apps/horarios/system/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+#9 /homepages/34/d971490128/htdocs/apps/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-01 21:34:46 --> Duplicate entry ' charitoleo_29@' for key 'username'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

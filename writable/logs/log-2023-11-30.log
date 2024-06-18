@@ -1,0 +1,128 @@
+INFO - 2023-11-30 06:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 06:11:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 06:15:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 06:15:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 06:15:21 --> Too few arguments to function App\Controllers\Coordinador\ProgramacionController::create(), 0 passed in E:\en desarrollo\upn212horariosv2\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 06:27:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 06:27:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 06:29:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+CRITICAL - 2023-11-30 06:29:55 --> Undefined variable $carrera_id
+in APPPATH\Views\coordinador\programacion\index.php on line 7.
+ 1 APPPATH\Views\coordinador\programacion\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrera_id', 'E:\\en desarrollo\\upn212horariosv2\\app\\Views\\coordinador\\programacion\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\coordinador\\programacion\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('coordinador/programacion/index', [], true)
+ 5 APPPATH\Controllers\Coordinador\ProgramacionController.php(43): view('coordinador/programacion/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 06:30:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+CRITICAL - 2023-11-30 06:30:06 --> Undefined variable $carrera
+in APPPATH\Views\coordinador\programacion\index.php on line 7.
+ 1 APPPATH\Views\coordinador\programacion\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrera', 'E:\\en desarrollo\\upn212horariosv2\\app\\Views\\coordinador\\programacion\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\coordinador\\programacion\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('coordinador/programacion/index', [], true)
+ 5 APPPATH\Controllers\Coordinador\ProgramacionController.php(43): view('coordinador/programacion/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 06:30:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Coordinador\ProgramacionController::$session is deprecated in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+CRITICAL - 2023-11-30 06:30:12 --> Undefined variable $carrera
+in APPPATH\Views\coordinador\programacion\index.php on line 7.
+ 1 APPPATH\Views\coordinador\programacion\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrera', 'E:\\en desarrollo\\upn212horariosv2\\app\\Views\\coordinador\\programacion\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horariosv2\\app\\Views\\coordinador\\programacion\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('coordinador/programacion/index', [], true)
+ 5 APPPATH\Controllers\Coordinador\ProgramacionController.php(43): view('coordinador/programacion/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 06:44:20 --> Too few arguments to function App\Controllers\Coordinador\ProgramacionController::index(), 0 passed in E:\en desarrollo\upn212horariosv2\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')
+INFO - 2023-11-30 06:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 06:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 06:44:37 --> Too few arguments to function App\Controllers\Coordinador\ProgramacionController::index(), 0 passed in E:\en desarrollo\upn212horariosv2\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Coordinador\ProgramacionController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coordinador\ProgramacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horariosv2\\public\\index.php')

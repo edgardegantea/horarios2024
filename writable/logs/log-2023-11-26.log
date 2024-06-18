@@ -1,0 +1,474 @@
+INFO - 2023-11-26 22:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-26 22:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-26 22:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-26 22:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-26 22:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 22:52:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 22:52:15 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 22:52:15 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 22:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 22:53:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 22:53:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 22:53:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 22:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 22:53:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 22:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 22:53:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 22:53:21 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 22:53:21 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 22:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 22:53:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 22:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 22:53:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 22:53:31 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 22:53:31 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:15:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+CRITICAL - 2023-11-26 23:15:33 --> Class "App\Controllers\Admin\DocenteModel" not found
+in APPPATH\Controllers\Admin\CarreraController.php on line 288.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->agregar_horario('5')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:15:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:15:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:15:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:15:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+CRITICAL - 2023-11-26 23:15:59 --> Undefined variable $carrera
+in APPPATH\Views\admin\carreras\agregar_horario.php on line 3.
+ 1 APPPATH\Views\admin\carreras\agregar_horario.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrera', 'C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\agregar_horario.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\agregar_horario.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/agregar_horario', [], true)
+ 5 APPPATH\Controllers\Admin\CarreraController.php(337): view('admin/carreras/agregar_horario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->agregar_horario('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:16:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:16:04 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:16:04 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(44): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:16:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:17:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:18:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:21:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:21:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:22:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:23:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:25:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+CRITICAL - 2023-11-26 23:25:58 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(318): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->agregar_horario('5')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:26:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:26:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+CRITICAL - 2023-11-26 23:26:17 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(318): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->agregar_horario('5')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:27:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:27:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:28:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:28:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:34:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:34:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:36:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:36:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-26 23:38:23 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\Admin\CarreraController.php on line 334.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\development\\dev\\upn212horarios\\app\\Controllers\\Admin\\CarreraController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\CarreraController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\CarreraController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\CarreraController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:38:34 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(45): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:38:34 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(45): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:42:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:42:37 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(45): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:42:37 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(45): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:42:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:42:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:42:43 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$docentesCarrerasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(45): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+WARNING - 2023-11-26 23:42:43 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$carrerasAsignaturasModel is deprecated in APPPATH\Views\admin\carreras\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\Users\\development\\dev\\upn212horarios\\app\\Views\\admin\\carreras\\index.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 4 APPPATH\Controllers\Admin\CarreraController.php(45): view('admin/carreras/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\CarreraController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')
+INFO - 2023-11-26 23:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-26 23:42:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CarreraController::$session is deprecated in APPPATH\Controllers\Admin\CarreraController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\CarreraController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\development\\dev\\upn212horarios\\public\\index.php')

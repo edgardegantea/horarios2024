@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="584.66943"
+   height="720"
+   version="1.1"
+   id="svg44"
+   sodipodi:docname="Logo_Upn_Oficial.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs48" />
+  <sodipodi:namedview
+     id="namedview46"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.80186916"
+     inkscape:cx="581.76573"
+     inkscape:cy="357.29021"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="410"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg44" />
+  <g
+     id="g5"
+     transform="matrix(0.90039568,0,0,0.90039568,0.90039568,0.90039568)">
+    <title
+       id="title2">upni</title>
+    <rect
+       fill="none"
+       id="canvas_background"
+       height="109"
+       width="128"
+       y="-1"
+       x="-1" />
+  </g>
+  <path
+     id="svg_31"
+     fill="#005cab"
+     d="M 2.7804984,600.62145 C 2.7804984,666.57665 56.247997,720 122.15891,720 c 0,0 155.18478,0 155.18478,0 0,0 0,-307.60342 0,-307.60342 0,0 -119.54883,0 -119.54883,0 0,0 0,188.26038 0,188.26038 0,0 -35.4212,0 -35.4212,0 0,0 0,-188.26038 0,-188.26038 0,0 -119.5931616,0 -119.5931616,0 0,0 0,188.22494 0,188.22494 0,0 0,-1.7e-4 0,-1.7e-4 m 0,0"
+     style="stroke-width:0.900396" />
+  <path
+     id="svg_32"
+     fill="#005cab"
+     d="m 584.66944,412.04695 c 0,-65.94637 -53.42308,-119.37752 -119.3426,-119.37752 0,0 -155.2206,0 -155.2206,0 0,0 0,307.60262 0,307.60262 0,0 119.59331,0 119.59331,0 0,0 0,-188.29671 0,-188.29671 0,0 35.42137,0 35.42137,0 0,0 0,188.29671 0,188.29671 0,0 119.54852,0 119.54852,0 0,0 0,-188.2251 0,-188.2251 0,0 0,0 0,0 z m 0,0"
+     style="stroke-width:0.900396" />
+  <path
+     id="svg_33"
+     fill="#005cab"
+     d="m 310.11063,1.0423683 c 0,0 0,247.9170917 0,247.9170917 75.91371,0 137.4559,-55.52799 137.4559,-123.9586 0,-68.465708 -61.54219,-123.9585881 -137.4559,-123.9585881"
+     style="stroke-width:0.900396" />
+  <path
+     id="svg_34"
+     fill="#005cab"
+     d="m 277.48685,378.86358 c 0,0 -120.21978,0 -120.21978,0 0,0 0,-377.96318432 0,-377.96318432 0,0 120.21978,0 120.21978,0 0,0 0,377.96318432 0,377.96318432 z m 0,0"
+     style="stroke-width:0.900396" />
+</svg>

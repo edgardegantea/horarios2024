@@ -1,0 +1,75 @@
+ERROR - 2023-10-02 15:53:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /run/media/degante/DEVELOPMENT/dev/horarios/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /run/media/degante/DEVELOPMENT/dev/horarios/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /run/media/degante/DEVELOPMENT/dev/horarios/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2023-10-02 16:14:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH/Controllers/DocenteController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\DocenteController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')
+ERROR - 2023-10-02 18:41:32 --> mysqli_sql_exception: Not unique table/alias: 'd' in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/app/Controllers/DocentesCarrerasController.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(919): App\Controllers\DocentesCarrerasController->index()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-10-02 18:41:32 --> Not unique table/alias: 'd'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Controllers/DocentesCarrerasController.php(13): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\DocentesCarrerasController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')
+ERROR - 2023-10-02 18:42:24 --> mysqli_sql_exception: Unknown column 'd.nombre' in 'field list' in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/app/Controllers/DocentesCarrerasController.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(919): App\Controllers\DocentesCarrerasController->index()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-10-02 18:42:24 --> Unknown column 'd.nombre' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Controllers/DocentesCarrerasController.php(13): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\DocentesCarrerasController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')

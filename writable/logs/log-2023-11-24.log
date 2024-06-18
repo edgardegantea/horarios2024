@@ -1,0 +1,260 @@
+INFO - 2023-11-24 08:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-24 08:17:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 08:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-24 08:54:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.materia_id = a.id' at line 1 in E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('select a.nombre...', 0)
+#1 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select a.nombre...')
+#2 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select a.nombre...')
+#3 E:\en desarrollo\upn212horarios\app\Controllers\ProgramacionController.php(46): CodeIgniter\Database\BaseConnection->query('select a.nombre...')
+#4 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+#5 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+#6 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\en desarrollo\upn212horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\en desarrollo\upn212horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#9 {main}
+CRITICAL - 2023-11-24 08:54:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.materia_id = a.id' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\ProgramacionController.php(46): CodeIgniter\Database\BaseConnection->query('select a.nombre as asignatura, u.nombre as profesor from programacion p left join usuarios u on p.docente_id = u.id left join asignaturas a p.materia_id = a.id')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 08:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-24 08:54:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.materia_id = a.id' at line 1 in E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('select a.nombre...', 0)
+#1 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select a.nombre...')
+#2 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select a.nombre...')
+#3 E:\en desarrollo\upn212horarios\app\Controllers\ProgramacionController.php(46): CodeIgniter\Database\BaseConnection->query('select a.nombre...')
+#4 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+#5 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+#6 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\en desarrollo\upn212horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\en desarrollo\upn212horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#9 {main}
+CRITICAL - 2023-11-24 08:54:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.materia_id = a.id' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\ProgramacionController.php(46): CodeIgniter\Database\BaseConnection->query('select a.nombre as asignatura, u.nombre as profesor from programacion p left join usuarios u on p.docente_id = u.id left join asignaturas a p.materia_id = a.id')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 08:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-24 08:55:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.materia_id = a.id' at line 1 in E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('select a.nombre...', 0)
+#1 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select a.nombre...')
+#2 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select a.nombre...')
+#3 E:\en desarrollo\upn212horarios\app\Controllers\ProgramacionController.php(46): CodeIgniter\Database\BaseConnection->query('select a.nombre...')
+#4 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+#5 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+#6 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\en desarrollo\upn212horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\en desarrollo\upn212horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#9 {main}
+CRITICAL - 2023-11-24 08:55:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.materia_id = a.id' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\ProgramacionController.php(46): CodeIgniter\Database\BaseConnection->query('select a.nombre as asignatura, u.nombre as profesor from programacion p left join usuarios as u on p.docente_id = u.id left join asignaturas as a p.materia_id = a.id')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 08:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 08:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-24 09:23:49 --> mysqli_sql_exception: Unknown column 'p.asignatura' in 'on clause' in E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.id, ac...', 0)
+#1 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.id, ac...')
+#2 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.id, ac...')
+#3 E:\en desarrollo\upn212horarios\app\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.id, ac...')
+#4 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+#5 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+#6 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\en desarrollo\upn212horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\en desarrollo\upn212horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#9 {main}
+CRITICAL - 2023-11-24 09:23:49 --> Unknown column 'p.asignatura' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.id, ac.id as ida, a.nombre as asignatura from asignaturas as a left join asignaturas_carreras as ac on a.id = ac.asignatura left join programacion as p on p.asignatura = a.id')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 09:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-24 09:26:11 --> mysqli_sql_exception: Unknown column 'p.dia1' in 'field list' in E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.id, ac...', 0)
+#1 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.id, ac...')
+#2 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.id, ac...')
+#3 E:\en desarrollo\upn212horarios\app\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.id, ac...')
+#4 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+#5 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+#6 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\en desarrollo\upn212horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\en desarrollo\upn212horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#9 {main}
+CRITICAL - 2023-11-24 09:26:11 --> Unknown column 'p.dia1' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.id, ac.id as ida, a.nombre as asignatura, p.dia1, p.dia2 from asignaturas as a left join asignaturas_carreras as ac on a.id = ac.asignatura left join programacion as p on p.materia_id = a.id')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 09:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 09:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-24 09:29:53 --> mysqli_sql_exception: Unknown column 'a.nombre' in 'field list' in E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, ac....', 0)
+#1 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, ac....')
+#2 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, ac....')
+#3 E:\en desarrollo\upn212horarios\app\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.*, ac....')
+#4 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+#5 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+#6 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\en desarrollo\upn212horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\en desarrollo\upn212horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#9 {main}
+CRITICAL - 2023-11-24 09:29:53 --> Unknown column 'a.nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.*, ac.id as ida, a.nombre as asignatura from programacion as p join asignaturas_carreras as ac on a.id = p.materia_id')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 09:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-24 09:30:26 --> mysqli_sql_exception: Unknown column 'a.id' in 'on clause' in E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, ac....', 0)
+#1 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, ac....')
+#2 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, ac....')
+#3 E:\en desarrollo\upn212horarios\app\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.*, ac....')
+#4 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+#5 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+#6 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\en desarrollo\upn212horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\en desarrollo\upn212horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#9 {main}
+CRITICAL - 2023-11-24 09:30:26 --> Unknown column 'a.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.*, ac.id as ida, a.nombre as asignatura from programacion as p join asignaturas_carreras as ac on a.id = p.materia_id left join asignaturas as a on ac.asignatura = a.id')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 09:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-24 09:30:41 --> mysqli_sql_exception: Unknown column 'a.id' in 'on clause' in E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, ac....', 0)
+#1 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, ac....')
+#2 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, ac....')
+#3 E:\en desarrollo\upn212horarios\app\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.*, ac....')
+#4 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+#5 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+#6 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\en desarrollo\upn212horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\en desarrollo\upn212horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#9 {main}
+CRITICAL - 2023-11-24 09:30:41 --> Unknown column 'a.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.*, ac.id as ida, a.id, a.nombre as asignatura from programacion as p join asignaturas_carreras as ac on a.id = p.materia_id left join asignaturas as a on ac.asignatura = a.id')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 09:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-24 09:31:09 --> mysqli_sql_exception: Unknown column 'a.id' in 'on clause' in E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\en desarrollo\upn212horarios\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, ac....', 0)
+#1 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, ac....')
+#2 E:\en desarrollo\upn212horarios\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, ac....')
+#3 E:\en desarrollo\upn212horarios\app\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.*, ac....')
+#4 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+#5 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+#6 E:\en desarrollo\upn212horarios\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\en desarrollo\upn212horarios\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\en desarrollo\upn212horarios\system\Commands\Server\rewrite.php(47): require_once('E:\\en desarroll...')
+#9 {main}
+CRITICAL - 2023-11-24 09:31:09 --> Unknown column 'a.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\ProgramacionController.php(48): CodeIgniter\Database\BaseConnection->query('select p.*, ac.id as ida, a.id, a.nombre as nombremateria from programacion as p join asignaturas_carreras as ac on a.id = p.materia_id left join asignaturas as a on ac.asignatura = a.id')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 09:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 15:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 15:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 15:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 15:15:00 --> Undefined variable $programacion
+in APPPATH\Views\admin\programacion\index.php on line 20.
+ 1 APPPATH\Views\admin\programacion\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $programacion', 'E:\\en desarrollo\\upn212horarios\\app\\Views\\admin\\programacion\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horarios\\app\\Views\\admin\\programacion\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/programacion/index', [], true)
+ 5 APPPATH\Controllers\ProgramacionController.php(58): view('admin/programacion/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')
+INFO - 2023-11-24 15:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 15:15:13 --> Undefined array key "docente"
+in APPPATH\Views\admin\programacion\index.php on line 24.
+ 1 APPPATH\Views\admin\programacion\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "docente"', 'E:\\en desarrollo\\upn212horarios\\app\\Views\\admin\\programacion\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\en desarrollo\\upn212horarios\\app\\Views\\admin\\programacion\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/programacion/index', [], true)
+ 5 APPPATH\Controllers\ProgramacionController.php(58): view('admin/programacion/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProgramacionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212horarios\\public\\index.php')

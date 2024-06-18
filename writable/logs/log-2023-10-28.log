@@ -1,0 +1,79 @@
+INFO - 2023-10-28 17:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-28 17:09:20 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/app/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(309): App\Validation\Userrules->validateUser()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(195): CodeIgniter\Validation\Validation->processRules()
+#9 /run/media/degante/DEVELOPMENT/dev/horarios/system/Controller.php(150): CodeIgniter\Validation\Validation->run()
+#10 /run/media/degante/DEVELOPMENT/dev/horarios/app/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+#11 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(919): App\Controllers\UserController->login()
+#12 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#13 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#14 /run/media/degante/DEVELOPMENT/dev/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#15 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Server/rewrite.php(47): require_once('...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /run/media/degante/DEVELOPMENT/dev/horarios/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /run/media/degante/DEVELOPMENT/dev/horarios/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /run/media/degante/DEVELOPMENT/dev/horarios/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /run/media/degante/DEVELOPMENT/dev/horarios/app/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+#6 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(309): App\Validation\Userrules->validateUser()
+#7 /run/media/degante/DEVELOPMENT/dev/horarios/system/Validation/Validation.php(195): CodeIgniter\Validation\Validation->processRules()
+#8 /run/media/degante/DEVELOPMENT/dev/horarios/system/Controller.php(150): CodeIgniter\Validation\Validation->run()
+#9 /run/media/degante/DEVELOPMENT/dev/horarios/app/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+#10 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(919): App\Controllers\UserController->login()
+#11 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#12 /run/media/degante/DEVELOPMENT/dev/horarios/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#13 /run/media/degante/DEVELOPMENT/dev/horarios/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#14 /run/media/degante/DEVELOPMENT/dev/horarios/system/Commands/Server/rewrite.php(47): require_once('...')
+#15 {main}
+CRITICAL - 2023-10-28 17:09:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/Validation/Validation.php(309): App\Validation\Userrules->validateUser()
+ 7 SYSTEMPATH/Validation/Validation.php(195): CodeIgniter\Validation\Validation->processRules()
+ 8 SYSTEMPATH/Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->login()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')
+INFO - 2023-10-28 17:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 17:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 17:16:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Docente\ExpedienteController::$session is deprecated in APPPATH/Controllers/Docente/ExpedienteController.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Docente\ExpedienteController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente\ExpedienteController))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/degante/DEVELOPMENT/dev/horarios/public/index.php')
+INFO - 2023-10-28 17:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,52 @@
+ERROR - 2023-12-09 00:00:47 --> mysqli_sql_exception: Duplicate entry 'Adela' for key 'username' in /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/app/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+#8 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+#9 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-09 00:00:47 --> Duplicate entry 'Adela' for key 'username'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-09 00:01:19 --> mysqli_sql_exception: Duplicate entry 'Adela' for key 'username' in /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/app/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+#8 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+#9 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-09 00:01:19 --> Duplicate entry 'Adela' for key 'username'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(35): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

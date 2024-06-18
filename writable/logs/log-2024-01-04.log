@@ -1,0 +1,33 @@
+CRITICAL - 2024-01-04 22:50:38 --> Undefined array key 0
+in APPPATH/Views/coordinador/programacion/index.php on line 6.
+ 1 APPPATH/Views/coordinador/programacion/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/app/Views/coordinador/programacion/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Coordinador/ProgramacionController.php(56): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 22:51:06 --> Undefined array key 0
+in APPPATH/Views/coordinador/programacion/index.php on line 6.
+ 1 APPPATH/Views/coordinador/programacion/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/app/Views/coordinador/programacion/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Coordinador/ProgramacionController.php(56): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 22:57:28 --> Undefined array key 0
+in APPPATH/Views/coordinador/programacion/index.php on line 6.
+ 1 APPPATH/Views/coordinador/programacion/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/homepages/34/d971490128/htdocs/apps/upn212horarios/horariosupnv3/app/Views/coordinador/programacion/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Coordinador/ProgramacionController.php(56): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Coordinador\ProgramacionController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
